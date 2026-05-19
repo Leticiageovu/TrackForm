@@ -2,6 +2,35 @@
 
 O **TrackForm** é um ecossistema Full Stack profissional para gestão de rotina esportiva e acompanhamento de evolução corporal. O sistema permite registrar treinos de diversas modalidades, monitorar medidas físicas e visualizar o progresso através de métricas automáticas e gráficos intuitivos.
 
+<div align="center">
+  <img src="docs/screenshots/dashboard-preview.png" width="100%" alt="TrackForm Preview">
+</div>
+
+---
+
+## 📸 Demonstração
+
+<div align="center">
+  <table border="0">
+    <tr>
+      <td><img src="docs/screenshots/login.png" width="300" alt="Tela de Login"></td>
+      <td><img src="docs/screenshots/register.png" width="300" alt="Tela de Cadastro"></td>
+    </tr>
+    <tr>
+      <td align="center"><b>Página de Login</b></td>
+      <td align="center"><b>Cadastro de Usuário</b></td>
+    </tr>
+    <tr>
+      <td><img src="docs/screenshots/workouts-panel.png" width="300" alt="Central de Treinos"></td>
+      <td><img src="docs/screenshots/h2-database.png" width="300" alt="Banco de Dados"></td>
+    </tr>
+    <tr>
+      <td align="center"><b>Painel de Treinos</b></td>
+      <td align="center"><b>Acesso ao Banco (H2)</b></td>
+    </tr>
+  </table>
+</div>
+
 ---
 
 ## 🚀 Tecnologias
