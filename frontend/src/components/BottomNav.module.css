@@ -1,0 +1,43 @@
+.bottomNav {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 70px;
+  background-color: var(--bg-card);
+  border-top: 1px solid #333;
+  justify-content: space-around;
+  align-items: center;
+  z-index: 1000;
+  padding-bottom: env(safe-area-inset-bottom);
+}
+
+.navItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  color: var(--text-secondary);
+  transition: all 0.2s;
+  flex: 1;
+  height: 100%;
+  justify-content: center;
+}
+
+.icon {
+  font-size: 1.8rem;
+  opacity: 0.6;
+}
+
+.active .icon {
+  transform: translateY(-5px);
+  opacity: 1;
+  filter: drop-shadow(0 0 8px var(--accent-primary));
+}
+
+@media (max-width: 768px) {
+  .bottomNav {
+    display: flex;
+  }
+}

@@ -1,0 +1,112 @@
+.container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.card {
+  background-color: var(--bg-card);
+  padding: 40px;
+  border-radius: 12px;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+
+.card h1 {
+  font-size: 2rem;
+  margin-bottom: 8px;
+  letter-spacing: 1px;
+}
+
+.card h1 span {
+  color: var(--accent-primary);
+}
+
+.card p {
+  color: var(--text-secondary);
+  margin-bottom: 32px;
+  font-size: 0.9rem;
+}
+
+.inputGroup {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.inputGroup label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+}
+
+.inputGroup input,
+.inputGroup select {
+  width: 100%;
+  padding: 12px 16px;
+  background-color: var(--bg-secondary);
+  border: 1px solid transparent;
+  border-radius: 6px;
+  color: var(--text-primary);
+  font-size: 1rem;
+  transition: border-color 0.2s;
+}
+
+.inputGroup input:focus,
+.inputGroup select:focus {
+  border-color: var(--accent-primary);
+  outline: none;
+}
+
+.error {
+  display: block;
+  color: var(--accent-danger);
+  font-size: 0.8rem;
+  margin-bottom: 16px;
+  text-align: left;
+}
+
+.button {
+  width: 100%;
+  padding: 14px;
+  background-color: var(--accent-primary);
+  color: #000;
+  font-weight: 700;
+  border-radius: 6px;
+  font-size: 1rem;
+  margin-top: 8px;
+  transition: transform 0.1s, opacity 0.2s;
+}
+
+.button:hover:not(:disabled) {
+  opacity: 0.9;
+}
+
+.button:active:not(:disabled) {
+  transform: scale(0.98);
+}
+
+.button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.footer {
+  margin-top: 32px;
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+}
+
+.footer a {
+  color: var(--accent-primary);
+  font-weight: 600;
+  margin-left: 4px;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
